@@ -10,8 +10,8 @@ public class StoreService {
     private final StoreRepository storeRepository;
 
 
-    public ResponseEntity<Store> addStore(){
-
-        return ResponseEntity.ok();
-    }
+//    public ResponseEntity<Store> addStore(){
+//
+//        return ResponseEntity.ok();
+//    }
 }

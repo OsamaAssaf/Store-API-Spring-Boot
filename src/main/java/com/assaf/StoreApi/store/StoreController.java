@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class StoreController {
     private final StoreService storeService;
 
-    @PostMapping(name = "/add")
-    public ResponseEntity<Store> addStore(){
-        return storeService.addStore();
-    }
+//    @PostMapping(name = "/add")
+//    public ResponseEntity<Store> addStore(){
+//        return storeService.addStore();
+//    }
 
 }
